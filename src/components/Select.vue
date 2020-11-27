@@ -667,7 +667,8 @@
           }
           this.updateValue(option);
         }
-        this.onAfterSelect(option)
+        this.onAfterSelect(option);
+        this.closeSearchOptions();
       },
 
       /**
